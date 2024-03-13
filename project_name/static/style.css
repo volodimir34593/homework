@@ -1,0 +1,22 @@
+/* styles.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.new-product {
+    border-color: green;  /* Зелений колір рамки для нових товарів */
+}
